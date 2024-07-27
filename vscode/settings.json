@@ -1,0 +1,136 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "biome.lspBin": "/home/yezi/.bun/install/cache/@biomejs/cli-linux-x64@1.7.1/biome",
+  "breadcrumbs.enabled": false,
+  "diffEditor.diffAlgorithm": "advanced",
+  "diffEditor.experimental.showEmptyDecorations": true,
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.renderSideBySide": true,
+  "editor.experimental.asyncTokenization": true,
+  "editor.experimentalWhitespaceRendering": "font",
+  "editor.fontFamily": "'Monaspace Neon', 思源黑体",
+  "editor.fontLigatures": "'liga', 'ss01', 'ss02', 'ss03', 'ss09'",
+  "editor.fontSize": 16,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": "multiFile",
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.smoothScrolling": true,
+  "editor.stickyTabStops": true,
+  "editor.suggest.showSnippets": false,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "’": true
+  },
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true,
+    "zh-hant": true
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "docker-compose.yml": "Dockerfile,Dockerfile.*,.dockerignore",
+    "package.json": "bun.lockb",
+    "pyproject.toml": "poetry.lock,requirements.txt,requirements-dev.txt",
+    "vite.config.ts": "*.config.js,*.config.ts,tsconfig.json,biome.json"
+  },
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.ruff_cache": true,
+    "**/__pycache__": true,
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/.git": true,
+    "**/.ruff_cache": true,
+    "**/__pycache__": true,
+    "**/node_modules": true
+  },
+  "git.closeDiffOnOperation": true,
+  "git.confirmSync": false,
+  "git.repositoryScanIgnoredFolders": [
+    "node_modules",
+    ".git",
+    ".ruff_cache",
+    "__pycache__"
+  ],
+  "git.terminalGitEditor": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "markdown.occurrencesHighlight.enabled": true,
+  "markdown.preview.fontFamily": "'Monaspace Neon', 思源黑体 CN",
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "markdown.validate.enabled": true,
+  "multiDiffEditor.experimental.enabled": true,
+  "notebook.experimental.remoteSave": true,
+  "notebook.experimental.variablesView": true,
+  "notebook.output.minimalErrorRendering": true,
+  "notebook.output.scrolling": true,
+  "notebook.stickyScroll.enabled": true,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.exclude": [
+    "**/.ruff_cache"
+  ],
+  "python.analysis.extraCommitChars": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "python.experiments.optInto": [
+    "pythonTerminalEnvVarActivation"
+  ],
+  "ruff.nativeServer": true,
+  "search.experimental.closedNotebookRichContentResults": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.external.linuxExec": "alacritty",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.tabs.focusMode": "singleClick",
+  "timeline.pageOnScroll": true,
+  "typescript.surveys.enabled": false,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "typescript.tsserver.experimental.useVsCodeWatcher": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "update.showReleaseNotes": false,
+  "vim.autoSwitchInputMethod.defaultIM": "1",
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -t {im}",
+  "vim.foldfix": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "window.title": "${rootName}${separator}${activeEditorShort}",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.renderIndentGuides": "none"
+}
