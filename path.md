@@ -6,6 +6,10 @@ alacritty.toml -> ~/.config/alacritty/alacritty.toml
 
 htoprc -> ~/.config/htop/htoprc
 
+# nvim
+
+init.lua -> ~/.config/nvim/init.lua
+
 # vscode
 
 keybindings.json -> ~/.config/Code/User/keybindings.json
