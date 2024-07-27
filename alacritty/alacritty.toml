@@ -1,0 +1,26 @@
+[cursor]
+style.blinking = "On"
+unfocused_hollow = false
+
+[font]
+size = 14
+
+[font.normal]
+family = "Monaspace Neon"
+style = "Regular"
+
+[font.bold]
+family = "Monaspace Neon"
+style = "Bold"
+
+[font.italic]
+family = "Monaspace Neon"
+style = "Italic"
+
+[font.bold_italic]
+family = "Monaspace Neon"
+style = "Bold Italic"
+
+[window.padding]
+x = 8
+y = 4

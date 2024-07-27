@@ -1,3 +1,7 @@
+# alacritty
+
+alacritty.toml -> ~/.config/alacritty/alacritty.toml
+
 # vscode
 
 keybindings.json -> ~/.config/Code/User/keybindings.json
