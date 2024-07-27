@@ -2,6 +2,10 @@
 
 alacritty.toml -> ~/.config/alacritty/alacritty.toml
 
+# htop
+
+htoprc -> ~/.config/htop/htoprc
+
 # vscode
 
 keybindings.json -> ~/.config/Code/User/keybindings.json
