@@ -2,6 +2,12 @@
 
 alacritty.toml -> ~/.config/alacritty/alacritty.toml
 
+# fish
+
+functions -> ~/.config/fish/functions
+
+config.fish -> ~/.config/fish/config.fish
+
 # htop
 
 htoprc -> ~/.config/htop/htoprc
