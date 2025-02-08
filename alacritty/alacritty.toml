@@ -1,0 +1,13 @@
+[window]
+dimensions = { columns = 80, lines = 25 }
+padding = { x = 8, y = 4 }
+
+[font]
+size = 14
+normal = { family = "Monaspace Neon", style = "Regular" }
+bold = { family = "Monaspace Neon", style = "Bold" }
+italic = { family = "Monaspace Neon", style = "Italic" }
+bold_italic = { family = "Monaspace Neon", style = "Bold Italic" }
+
+[cursor]
+style = { blinking = "On" }
