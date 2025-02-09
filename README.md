@@ -17,3 +17,6 @@
     - `mpv.conf`
 - NeoVim
     - `init.lua`
+- VS Code
+    - `settings.json`
+    - `keybindings.json`
