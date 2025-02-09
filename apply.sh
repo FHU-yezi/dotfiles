@@ -13,4 +13,8 @@ echo 已应用 mpv 配置文件
 cp neovim/init.lua $CONFIG_PATH/nvim
 echo 已应用 NeoVim 配置文件
 
+cp vscode/keybindings.json $CONFIG_PATH/Code/User
+cp vscode/settings.json $CONFIG_PATH/Code/User
+echo 已应用 VS Code 配置文件
+
 echo 全部配置文件应用完成

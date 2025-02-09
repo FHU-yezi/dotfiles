@@ -1,0 +1,98 @@
+{
+    // 字体
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Monaspace Neon",
+    "editor.fontLigatures": "'liga', 'ss01', 'ss02', 'ss03', 'ss06', 'ss07', 'ss09', 'ss10'",
+    // 标题栏
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "window.title": "${folderName}${separator}${activeEditorShort}",
+    // 侧边栏
+    "workbench.activityBar.location": "top",
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "timeline.pageOnScroll": true,
+    // 资源管理器
+    "files.exclude": {
+        "**/.ruff_cache": true,
+        "**/.venv": true,
+        "**/__pycache__": true,
+        "**/node_modules": true
+    },
+    "files.watcherExclude": {
+        "**/.git": true,
+        "**/.ruff_cache": true,
+        "**/.venv": true,
+        "**/__pycache__": true,
+        "**/node_modules": true
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "pyproject.toml": "uv.lock, requirements.txt, requirements-dev.txt",
+        "package.json": "bun.lock, bun.lockb",
+        "docker-compose.yml": "Dockerfile, Dockerfile.*, .dockerignore",
+        "vite.config.ts": "*.config.js, *.config.ts, tsconfig.json, biome.json"
+    },
+    // 编辑器
+    "files.autoSave": "afterDelay",
+    "editor.lineNumbers": "relative",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.linkedEditing": true,
+    "editor.occurrencesHighlight": "multiFile",
+    "editor.overviewRulerBorder": false,
+    "editor.renderWhitespace": "trailing",
+    "editor.suggest.showSnippets": false,
+    "editor.stickyTabStops": true,
+    // 终端
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    // Git
+    "git.terminalGitEditor": true,
+    "git.closeDiffOnOperation": true,
+    "git.confirmSync": false,
+    "git.repositoryScanIgnoredFolders": [
+        ".ruff_cache",
+        ".venv",
+        "__pycache__",
+        "node_modules"
+    ],
+    // Python
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.autoFormatStrings": true,
+    "python.experiments.optInto": [
+        "pythonTerminalEnvVarActivation"
+    ],
+    // Typescript
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.experimental.expandableHover": true,
+    // Markdown
+    "markdown.validate.enabled": true,
+    "markdown.updateLinksOnFileMove.enabled": "always",
+    // Vim 扩展
+    "vim.leader": "<space>",
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "1",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx5-remote",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx5-remote -t {im}",
+    // 遥测与提示
+    "telemetry.telemetryLevel": "off",
+    "typescript.surveys.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "update.showReleaseNotes": false,
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden"
+}
