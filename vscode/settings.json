@@ -4,7 +4,6 @@
     "editor.fontFamily": "Monaspace Neon",
     "editor.fontLigatures": "'liga', 'ss01', 'ss02', 'ss03', 'ss06', 'ss07', 'ss09', 'ss10'",
     // 标题栏
-    "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "toggle",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
@@ -75,7 +74,6 @@
     // Typescript
     "typescript.tsserver.experimental.enableProjectDiagnostics": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "typescript.experimental.expandableHover": true,
     // Markdown
     "markdown.validate.enabled": true,
     "markdown.updateLinksOnFileMove.enabled": "always",
